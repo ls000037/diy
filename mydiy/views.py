@@ -13,4 +13,4 @@ def user(request):
     # permission_classes = [permissions.IsAuthenticated]
     queryset = User.objects.all()
     serializer_class = UserSerializer
-    return HttpResponse("1111")
+    return HttpResponse("11111")
